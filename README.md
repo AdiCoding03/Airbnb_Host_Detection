@@ -3,3 +3,6 @@ This application helps identify whether an Airbnb host is **New or Experienced**
 
 # App Link
 https://detecthostlifecycle-5nppdndcczdbyqyggkkdem.streamlit.app/
+
+### Source Link
+https://mavenanalytics.io/data-playground/airbnb-listings-reviews
