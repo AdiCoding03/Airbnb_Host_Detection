@@ -8,16 +8,16 @@ AIRBNB HOST EXPERIENCE PREDICTION
 To identify and classify Airbnb hosts as new or experienced using host and listing attributes to better understand host behavior on the platform.
 
 # Dataset
-Source: Maven Analytics – Airbnb Listings & Reviews
-Size: 279,712 rows × 33 columns
+  Source: Maven Analytics – Airbnb Listings & Reviews
+  Size: 279,712 rows × 33 columns
 
 # Tech Stack
-Python
-Pandas, NumPy
-Scikit-learn
-Matplotlib
-Seaborn
-Streamlit
+  Python
+  Pandas, NumPy
+  Scikit-learn
+  Matplotlib
+  Seaborn
+  Streamlit
 
 # ML Models Used
 Decision Tree Classifier
