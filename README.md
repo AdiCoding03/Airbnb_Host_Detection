@@ -8,36 +8,36 @@ AIRBNB HOST EXPERIENCE PREDICTION
 To identify and classify Airbnb hosts as new or experienced using host and listing attributes to better understand host behavior on the platform.
 
 # Dataset
-  Source: Maven Analytics – Airbnb Listings & Reviews
-  Size: 279,712 rows × 33 columns
+* Source: Maven Analytics – Airbnb Listings & Reviews
+* Size: 279,712 rows × 33 columns
 
 # Tech Stack
-  Python
-  Pandas, NumPy
-  Scikit-learn
-  Matplotlib
-  Seaborn
-  Streamlit
+* Python
+* Pandas, NumPy
+* Scikit-learn
+* Matplotlib
+* Seaborn
+* Streamlit
 
 # ML Models Used
-Decision Tree Classifier
-Decision Tree Classifier (Tuned)
-Random Forest Classifier
-Random Forest Classifier (Tuned)
-AdaBoost Classifier
-XGBoost Classifier (Tuned)
-KNN Classifier
+* Decision Tree Classifier
+* Decision Tree Classifier (Tuned)
+* Random Forest Classifier
+* Random Forest Classifier (Tuned)
+* AdaBoost Classifier
+* XGBoost Classifier (Tuned)
+* KNN Classifier
 
 # Evaluation Metrics & Model Performance
-Built and compared 10+ machine learning models
-XGBoost emerged as the best-performing model
-Achieved ~80% test accuracy and ~0.88 ROC-AUC
-Accuracy: 0.797
-F1-Score: 0.816 (best balance between precision and recall)
-Recall: 0.835 (high effectiveness in identifying New Hosts, critical for the business use case)
-Tree boosting and built-in regularization captured complex non-linear patterns while reducing overfitting
-Outperformed all single models and tuned ensemble variants
-Final model deployed via a Streamlit app for real-time host experience prediction
+* Built and compared 10+ machine learning models
+* XGBoost emerged as the best-performing model
+* Achieved ~80% test accuracy and ~0.88 ROC-AUC of model's prediction
+* Accuracy: 0.797
+* F1-Score: 0.816 (best balance between precision and recall)
+* Recall: 0.835 (high effectiveness in identifying New Hosts, critical for the business use case)
+* Tree boosting and built-in regularization captured complex non-linear patterns while reducing overfitting
+* Outperformed all single models and tuned ensemble variants
+* Final model deployed via a Streamlit app for real-time host experience prediction
 
 # Key Insights
 Fast and consistent host responses significantly improve performance, as response rate and response time are strong indicators of host experience and success.
